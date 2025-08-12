@@ -1,0 +1,6 @@
+a,b,c,d,a_is_number,b_is_valid_date,c_is_valid_value,d_is_valid_value
+10,2025-08-04,a_is_number,#123,True,True,True,False
+3.5,2025/08/04,b_is_valid_date,@test,True,False,True,False
+x,04/08/2025,c_is_valid_date,valid,False,False,True,True
+,,d_is_valid_date,invalid&,False,False,True,False
+,2025-12-01,c_is_valid_date,,False,True,True,False
